@@ -1,0 +1,31 @@
+/* CSS styles for the game */
+body {
+  font-family: Arial, sans-serif;
+}
+#gameArea {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.box {
+  padding: 5px;
+  background-color: #eee;
+  border: 1px solid #aaa;
+  user-select: none;
+  text-align: center;
+}
+#startButton {
+  display: block;
+  margin: 20px auto;
+}
+#timer {
+  text-align: center;
+  font-size: 20px;
+}
+#endScreen {
+  text-align: center;
+}
+
